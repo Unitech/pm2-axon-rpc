@@ -16,17 +16,12 @@
     }
   ],
   "dependencies": {
-    "debug": "*",
-    "commander": "1.0.5",
-    "json-stringify-safe": "*"
+    "debug": "*"
   },
   "devDependencies": {
     "pm2-axon": "~2.0.5",
     "better-assert": "*",
     "mocha": "*"
-  },
-  "bin": {
-    "arpc": "bin/arpc"
   },
   "main": "index",
   "scripts": {
