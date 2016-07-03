@@ -98,6 +98,18 @@ describe('SOCKET', function() {
         });
       });
 
+      it('should works with something different than a error', function(done){
+        var svrErr;
+        server.expose('errorNoStack', function(fn){
+          fn('shit');
+        });
+
+        client.call('errorNoStack', function(err){
+          assert('shit' == err.message);
+          done();
+        });
+      });
+
       it('empty string edge case should still work', function(done){
         var svrErr;
         server.expose('error', function(fn){
