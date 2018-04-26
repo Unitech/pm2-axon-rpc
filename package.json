@@ -21,7 +21,7 @@
   "devDependencies": {
     "pm2-axon": "^3.0.2",
     "better-assert": "*",
-    "mocha": "*"
+    "mocha": "^3.5"
   },
   "main": "index",
   "scripts": {
