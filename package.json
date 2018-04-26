@@ -16,8 +16,7 @@
     }
   ],
   "dependencies": {
-    "debug": "^3.0",
-    "fclone": "^1"
+    "debug": "^3.0"
   },
   "devDependencies": {
     "pm2-axon": "^3.0.2",

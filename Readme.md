@@ -1,7 +1,7 @@
 
 # axon-rpc
 
-[![Build Status](https://travis-ci.org/unitech/pm2-axon-rpc.png)](https://travis-ci.org/unitech/pm2-axon-rpc)
+[![Build Status](https://travis-ci.org/Unitech/pm2-axon-rpc.png)](https://travis-ci.org/unitech/pm2-axon-rpc)
 
   RPC client / server for [axon](https://github.com/visionmedia/axon).
 
