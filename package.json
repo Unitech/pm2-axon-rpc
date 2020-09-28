@@ -19,7 +19,7 @@
     "debug": "^3.0"
   },
   "devDependencies": {
-    "pm2-axon": "^3.0.2",
+    "pm2-axon": "^4.0.0",
     "better-assert": "*",
     "mocha": "^3.5"
   },
